@@ -5,6 +5,7 @@
 # Integration
 Note:
 Before integrating pixie, make sure to copy assets folder from the .zip file to your server or anywhere else where the assets can be publicly accessed via a url (s3 bucket for example).
+<br>
 Vanilla JS
 The snippet below includes minimal code necessary to get the editor running in a simple web file.
 
