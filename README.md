@@ -1,14 +1,15 @@
 # Edityuk-Web-photo-editor
 
-# Getting Started
-
 # Integration
 Note:
+<br>
 Before integrating pixie, make sure to copy assets folder from the .zip file to your server or anywhere else where the assets can be publicly accessed via a url (s3 bucket for example).
 <br>
 Vanilla JS
+<br>
 The snippet below includes minimal code necessary to get the editor running in a simple web file.
-
+<br>
+<pre>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,6 +35,7 @@ The snippet below includes minimal code necessary to get the editor running in a
 </script>
 </body>
 </html>
+</pre>
 A couple of notes about above example:
 
 <script src="dist/pixie.umd.js"></script> loads pixie editor. You can find this file in pixie/dist folder in the .zip downloaded from codecanyon.
