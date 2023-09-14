@@ -1,66 +1,32 @@
-# Edityuk-Web-photo-editor
+<h1 align="center">Hi 👋, I'm Dasep Moch Luay</h1>
+<h3 align="center">A passionate Web developer from Indonesia</h3>
 
-# Integration
-Note:
-<br>
-Before integrating pixie, make sure to copy assets folder from the .zip file to your server or anywhere else where the assets can be publicly accessed via a url (s3 bucket for example).
-<br>
-Vanilla JS
-<br>
-The snippet below includes minimal code necessary to get the editor running in a simple web file.
-<br>
-<pre>
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <style>
-    html, body, #editor-container {
-      width: 100%;
-      height: 100%;
-    }
-  </style>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
-  <title>Pixie Example</title>
-  <script src="dist/pixie.umd.js"></script>
-</head>
-<body>
-<div id="editor-container"></div>
-<script>
-  Pixie.init({
-    selector: "#editor-container",
-    baseUrl: 'assets',
-    image: "assets/images/samples/sample1.jpg",
-  });
-</script>
-</body>
-</html>
-</pre>
-A couple of notes about above example:
+- 🔭 I’m currently working on [Freelance](https://dasepmoch.dev)
 
-<script src="dist/pixie.umd.js"></script> loads pixie editor. You can find this file in pixie/dist folder in the .zip downloaded from codecanyon.
-<div id="editor-container"></div> is where the editor will be rendered. Pixie will inherit the size of this container, so you might want to give it width and height.
-Pixie.init initiates the editor. You will want to use baseUrl to specify where pixie asset files (images and fonts) are publicly accessible, baseUrl accepts either an absolute (https://site.com/assets) url or a relative one (assets).
-React JS
-Create a local_modules folder and paste pixie folder into it. 
-Install pixie locally by using this command from project root: npm install ./local_modules/
-Now you can import Pixie module into your app as any other dependency.
-The snippet below includes minimal code necessary to get the editor running in a react component.
+- 🌱 I’m currently learning **Muhammadiyah University**
 
-import React, {useEffect} from "react";
-import { Pixie } from "pixie";
+- 👯 I’m looking to collaborate on **Web Development**
 
-export function EditorDemo() {
-  useEffect(() => {
-    Pixie.init({
-      selector: "#container",
-      baseUrl: "pixie",
-      image: "pixie/images/samples/sample1.jpg",
-    }).then((instance) => {
-      // editor is fully loaded!
-      console.log(instance);
-    });
-  }, []);
-  return <div id="container" />;
-}
+- 🤝 I’m looking for help with **Web Development**
 
+- 👨‍💻 All of my projects are available at [https://dasepmoch.dev](https://dasepmoch.dev)
+
+- 📝 I regularly write articles on [https://dasepmoch.dev/blog](https://dasepmoch.dev/blog)
+
+- 💬 Ask me about **React, Vue, flutter**
+
+- 📫 How to reach me **dasepmmm@gmail.com**
+
+- 📄 Know about my experiences [https://dasepmoch.dev](https://dasepmoch.dev)
+
+- ⚡ Fun fact **I think Im funny**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/dasepmoch" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dasepmoch" height="30" width="40" /></a>
+<a href="https://instagram.com/dasepmochly" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dasepmochly" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/dasepmoch" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="dasepmoch" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> </p>
