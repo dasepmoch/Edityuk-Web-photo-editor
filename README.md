@@ -1,6 +1,9 @@
 <h1 align="center">Hi 👋, I'm Dasep Moch Luay</h1>
 <h3 align="center">A passionate Web developer from Indonesia</h3>
-![screenshoot](https://github.com/dasepmoch/Edityuk-Web-photo-editor/blob/main/Screenshot%202023-09-15%20005849.png)
+<div align="center">
+    <img src="https://github.com/dasepmoch/Edityuk-Web-photo-editor/raw/main/Screenshot%202023-09-15%20005849.png" alt="Screenshot" />
+</div>
+
 # INTEGRATION
 
 ```html
