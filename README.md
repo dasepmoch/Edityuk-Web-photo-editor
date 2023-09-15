@@ -7,8 +7,6 @@
 # INTEGRATION
 
 ```html
-# Pixie Image Editor
-
 
 ## Vanilla JS
 
